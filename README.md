@@ -4,7 +4,7 @@ Please run the following steps to run the app:
 
 2. Go to the project directory and run `npm install` to install the required dependencies.
 
-3. Please create an app to get a key and a secret from the Discogs website https://www.discogs.com/settings/developers for Discogs API.
+3. Please create an app on Discogs website to get a key and a secret to be able to use Discogs API. Details can be found at https://www.discogs.com/settings/developers.
 
 4. Create a `.env` file in the root directory and add the following variable:
 
