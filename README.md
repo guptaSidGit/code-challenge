@@ -13,4 +13,4 @@ Please run the following steps to run the app:
    REACT_APP_DISCOGS_API_SECRET=your_api_secret
    ```
 
-5. Run `npm start` to start the app.
+5. Run `npm start` to start the app which should take you to http://localhost:3000 where you can browse the app.
