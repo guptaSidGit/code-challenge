@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { BrowserRouter as Router, Route, Link, Routes, Navigate } from 'react-router-dom'; // Added Navigate for redirection
-import './App.css'; // Import your CSS for styling
+import { BrowserRouter as Router, Route, Link, Routes, Navigate } from 'react-router-dom';
+import './App.css';
 
 interface Album {
     id: number;
