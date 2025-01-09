@@ -9,7 +9,7 @@ Please run the following steps to run the app:
 4. Create a `.env` file in the root directory and add the following variable:
 
    ```
-   REACT_APP_DISCOGS_API_KEY=your_api_token  
+   REACT_APP_DISCOGS_API_KEY=your_api_key  
    REACT_APP_DISCOGS_API_SECRET=your_api_secret
    ```
 
