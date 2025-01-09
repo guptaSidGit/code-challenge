@@ -1,0 +1,178 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.filter-container {
+    margin-bottom: 20px;
+}
+
+.filter-container label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.filter-container input {
+    margin: 0 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.filter-container button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filter-container button:hover {
+    background-color: #0056b3;
+}
+
+.album-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.album-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #f9f9f9;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.album-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.album-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.album-item button {
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.album-item button:hover {
+    background-color: #218838;
+}
+
+.favorites-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.favorites-link:hover {
+    color: #0056b3;
+}
+
+.favorites-container img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* Additional styles for the favorites page */
+.favorite-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.favorite-item h3 {
+    margin-left: 10px;
+}
+
+.favorites-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.favorites-container h2 {
+    color: #333;
+}
+
+.favorites-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.favorite-item {
+    margin: 10px 0;
+}
+
+.favorite-item .album-item {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.favorite-item .album-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.favorites-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.favorites-link:hover {
+    color: #0056b3;
+}
+
+.filter-container div {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
