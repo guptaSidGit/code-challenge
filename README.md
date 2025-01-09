@@ -1,8 +1,8 @@
-Steps to run the app:
+Please run the following steps to run the app:
 
 1. Clone the repository from GitHub.
 
-2. Go to the project directory and run `npm install` to install the requireddependencies.
+2. Go to the project directory and run `npm install` to install the required dependencies.
 
 3. Generate a token from the Discogs website https://www.discogs.com/settings/developers for Discogs API.
 
