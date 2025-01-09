@@ -22,8 +22,18 @@ const App = () => {
     }, [filterYear, filterGenre, filterArtist, filterCountry]);
 
     const fetchAlbums = async (): Promise<void> => {
-        const response = await axios.get(`https://api.discogs.com/database/search?year=${filterYear}&genre=${filterGenre}&artist=${filterArtist}&country=${filterCountry}&token=${process.env.REACT_APP_DISCOGS_API_TOKEN}`);
-     
+        const response = await axios.get(`https://api.discogs.com/database/search`, {
+            params: {
+                year: filterYear,
+                genre: filterGenre,
+                artist: filterArtist,
+                country: filterCountry
+            },
+            headers: {
+                'Authorization': `Discogs key=${process.env.REACT_APP_DISCOGS_API_KEY}, secret=${process.env.REACT_APP_DISCOGS_API_SECRET}`
+            }
+        });
+
         setAlbums(response.data.results);
     };
 
